@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="./Imagenes/ISR Favicon.jpg">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
     <!-- Bootstrp  -->
     <link rel="stylesheet" href="./Bootstrap/CSS/bootstrap.min.css">
@@ -26,28 +26,39 @@
 </head>
 <body>
     <header>
-        <img class="img__logo" src="./imagenes/Logo.jpg" alt="Logo Instituto San Roman" >  
-        
-        <!--
-        <h1 class="h1__inicio"> 
-            Instituto San Román
-        </h1>   
-        -->
-       
-        <nav>
-            <ul>
-                <li class="menu__item"> <a class="menu__link" href="./Index.html">Inicio</a></li>
-                <li class="menu__item"> <a class="menu__link" href="./Novedades.html">Novedades</a></li>
-                <li Class="menu__item"> <a class="menu__link" href="./Historia.html">Nuestra Historia</a></li>
-                <li class="menu__item"> <a class="menu__link" href="./Intercambio.html">Intercambios Internacionales</a></li>
-                <li class="menu__item"> <a class="menu__link" href="./Exalumnos.html">Exalumnos</a></li>
-                <li class="menu__item"> <a class="menu__link" href="./Inscripciones.html">Inscripciones</a></li>
-            </ul>
+        <img class="img__logo" src="./Imagenes/Logo.jpg" alt="Logo Instituto San Roman" >  
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-isr">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Novedades.html">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Historia.html">Quienes somos<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Intercambio.html">Intercambios Int.<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Exalumnos.html">Exalumnos<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Inscripciones.html">Inscripciones<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-</header>
+    </header>
 
 <div class="container">
-    <div class="row col-12 margen">
+    <div class="row col-11 margen">
         <div class="card">
             <div class="card-body">
                 <h2>Quiénes somos</h2>
@@ -62,7 +73,7 @@
 </div>
 
 <div class="container">
-    <div class="row col-12 margen">
+    <div class="row col-11 margen">
         <div class="card">
             <div class="card-body">
                 <h2>Presentación del libro de Ricardo «Toti» Crosta</h2>
@@ -76,7 +87,7 @@
 </div>
 
 <div class="container">
-    <div class="row col-12 margen">
+    <div class="row col-11 margen">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -111,7 +122,7 @@
 </div>
 
 <div class="container">
-    <div class="row col-12 margen">
+    <div class="row col-11 margen">
         <div class="card">
             <div class="card-body">
                 <h2>3º Torneo Abierto de Golf Copa «San Román»</h2>
@@ -124,14 +135,14 @@
 </div>
 
 <div class="container">
-    <div class="d-flex flex-row flex-wrap margen"> 
-        <img class="img-thumbnail col-6" src="./imagenes/Exalumnos/golf1.jpg" alt="Thumbnail image">
-        <img class="img-thumbnail col-6" src="./imagenes/Exalumnos/golf2.jpg" alt="Thumbnail image">
-        <img class="img-thumbnail col-6" src="./imagenes/Exalumnos/golf3.jpg" alt="Thumbnail image">
-        <img class="img-thumbnail col-6" src="./imagenes/Exalumnos/golf4.jpg" alt="Thumbnail image">
-        <img class="img-thumbnail col-4" src="./imagenes/Exalumnos/golf5.jpg" alt="Thumbnail image">
-        <img class="img-thumbnail col-4" src="./imagenes/Exalumnos/golf7.jpg" alt="Thumbnail image">
-        <img class="img-thumbnail col-4" src="./imagenes/Exalumnos/golf8.jpg" alt="Thumbnail image">
+    <div class="d-flex col-11 flex-row flex-wrap margen"> 
+        <img class="img-thumbnail col-6" src="./Imagenes/Exalumnos/golf1.jpg" alt="Thumbnail image">
+        <img class="img-thumbnail col-6" src="./Imagenes/Exalumnos/golf2.jpg" alt="Thumbnail image">
+        <img class="img-thumbnail col-6" src="./Imagenes/Exalumnos/golf3.jpg" alt="Thumbnail image">
+        <img class="img-thumbnail col-6" src="./Imagenes/Exalumnos/golf4.jpg" alt="Thumbnail image">
+        <img class="img-thumbnail col-4" src="./Imagenes/Exalumnos/golf5.jpg" alt="Thumbnail image">
+        <img class="img-thumbnail col-4" src="./Imagenes/Exalumnos/golf7.jpg" alt="Thumbnail image">
+        <img class="img-thumbnail col-4" src="./Imagenes/Exalumnos/golf8.jpg" alt="Thumbnail image">
     </div>
 </div>
 
@@ -141,7 +152,7 @@
 <footer>
     <div>
         <span>
-            <img class="footer__img1" src="./imagenes/LogoMed.jpg" alt="Logo Instituto San Roman" >  
+            <img class="footer__img1" src="./Imagenes/LogoMed.jpg" alt="Logo Instituto San Roman" >  
         </span>
 
         <span class="footer__txt1">
@@ -157,7 +168,7 @@
         </span>
 
         <span>
-            <img class="footer__img2" src="./imagenes/ATR.jpg" alt="Logo Instituto San Roman" >  
+            <img class="footer__img2" src="./Imagenes/ATR.jpg" alt="Logo Instituto San Roman" >  
         </span>
 
     </div>
